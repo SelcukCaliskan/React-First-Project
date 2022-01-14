@@ -1,0 +1,31 @@
+[
+    {
+      "id": "1",
+      "fullName": "Jenny Chan",
+      "address": "3 waterfoot road",
+      "phoneNumber": "0",
+      "email": "jenny.chan@email.com"
+    },
+    {
+      "id": "2",
+      "fullName": "Jessica warren",
+      "address": "4 tall town",
+      "phoneNumber": "1",
+      "email": "jessica.warren@email.com"
+    },
+    {
+      "id": "3",
+      "fullName": "Tony Frank",
+      "address": "11 lesly road",
+      "phoneNumber": "2",
+      "email": "tony.frank@email.com"
+    },
+    {
+      "id": "4",
+      "fullName": "Jeremy Clark",
+      "address": "333 miltown manor",
+      "phoneNumber": "3",
+      "email": "jeremy.clark@email.com"
+    }
+  ]
+  

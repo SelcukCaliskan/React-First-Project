@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import { ContactList } from './ContactList';
+import { Table } from './Table';
+import data from "./mock-data.json";
 
 function App() {
+  const [contacts, setContacts] = useState(data);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ContactList value={contacts} setContacts={setContacts} />
+      <Table contacts={contacts} setContacts={setContacts} />
     </div>
   );
 }
-
 export default App;
